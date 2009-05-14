@@ -1,0 +1,55 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="de" lang="de">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta http-equiv="imagetoolbar" content="false">
+
+<title>Editoo</title>
+
+<link href="css/style.css" type="text/css"rel="stylesheet" />
+
+<script type="text/javascript" src="javascript/mootools.js"></script>
+<script type="text/javascript" src="javascript/editoo.js"></script>
+<script type="text/javascript">
+
+	var editor = Class.Empty;
+
+	window.addEvent('domready', function()
+	{
+		editor = new Editoo.Richtext('my_textarea', {css: 'styles/editoo.css'});
+		
+		editor.addEvent('onChange', function(new_html)
+		{
+			//alert(new_html);
+		});
+	});
+
+</script>
+
+</head>
+
+<body>
+    
+    <form method="post" action="echo.php">
+    
+        <a href="#"><img src="gfx/text_bold.png" alt="fett" border="0" onclick="editor.action('bold');return false" /></a>
+        <a href="#"><img src="gfx/text_italic.png" alt="kursiv" border="0" onclick="editor.action('italic');return false" /></a>
+        <a href="#"><img src="gfx/text_underline.png" alt="unterstrichen" border="0" onclick="editor.action('underline');return false" /></a>
+        <img src="grafiken/icons/toolbar-trenner.gif" alt="" />
+        <a href="#"><img src="gfx/link.png" alt="link hinzufügen" border="0" onclick="editor.action('addLink');return false" /></a>
+        <a href="#"><img src="gfx/link_break.png" alt="link entfernen" border="0" onclick="editor.action('removeLink');return false" /></a>
+        
+        <br />
+        
+        <textarea name="my_textarea" id="my_textarea" cols="50" rows="15">Überall dieselbe alte Leier. Das Layout ist fertig, der Text lässt auf sich warten. Damit das Layout nun nicht nackt im Raume steht und sich klein und leer vorkommt, springe ich ein: <a href="http://www.google.com/search?q=Blindtext">der Blindtext</a>. Genau zu diesem Zwecke erschaffen, immer im Schatten meines großen Bruders »Lorem Ipsum«, freue ich mich jedes Mal, wenn Sie ein paar Zeilen lesen. Denn esse est percipi - Sein ist wahrgenommen werden.</textarea>
+       
+        <br />
+        <br />
+       
+        <input type="submit" name="submit" id="submit" value="und los" />
+        
+    </form>
+    
+</body>
+</html>

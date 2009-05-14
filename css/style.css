@@ -1,0 +1,7 @@
+@charset "utf-8";
+
+.editoo { border-style: solid; border-width: 1px; border-color: #000066; background-color: #EFEFEF; }
+
+body,td,th { color: #707070; font-family: Geneva, Arial, Helvetica, sans-serif; }
+body { background-color: #FFFFFF; background-image: url(../gfx/visualdrugs.jpg); background-repeat: no-repeat; margin-left: 300px; margin-top: 80px; }
+h1,h2,h3,h4,h5,h6 { font-family: Contra, Geneva, Arial, Helvetica, sans-serif; color: #009EE0; }
