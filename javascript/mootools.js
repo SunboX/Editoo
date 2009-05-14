@@ -6803,7 +6803,7 @@ var Tips = new Class({
 		} else {
 			el.$tmp.myText = false;
 		}
-		if (el.$tmp.myTitle && el.$tmp.myTitle.length > this.options.maxTitleChars) el.$tmp.myTitle = el.$tmp.myTitle.substr(0, this.options.maxTitleChars - 1) + "…";
+		if (el.$tmp.myTitle && el.$tmp.myTitle.length > this.options.maxTitleChars) el.$tmp.myTitle = el.$tmp.myTitle.substr(0, this.options.maxTitleChars - 1) + "â€¦";
 		el.addEvent('mouseenter', function(event){
 			this.start(el);
 			if (!this.options.fixed) this.locate(event);

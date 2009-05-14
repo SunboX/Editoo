@@ -1,10 +1,10 @@
 /**
  * Editoo Wysiwyg Texteditor
  *
- * @author     André Fiedler <kontakt at visualdrugs dot net>
+ * @author     AndrÃ© Fiedler <kontakt at visualdrugs dot net>
  * @author     inspired by many other javascript Wysiwyg Editors
  * @link       http://github.com/SunboX/editoo/tree
- * @copyright  2008 - 2009 André Fiedler.
+ * @copyright  2008 - 2009 AndrÃ© Fiedler.
  * @license    MIT License
  * @version    0.9
  */
