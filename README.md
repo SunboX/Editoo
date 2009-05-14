@@ -1,7 +1,7 @@
 Editoo
 ===
 
-Editoo is my first try to implement a fully object oriented Wysiwyg Texteditor using Mootools 1.11.
+Editoo is my first try to implement a fully object oriented Wysiwyg Texteditor using Mootools 1.11
 
 What it is
 ---
@@ -10,7 +10,7 @@ It is a very early alpha version, developed in 2008.
 
 I tried to implement this editor, because there were no editor that fitted my needs for an small, fast and Mootools based Wysiwyg Texteditor.
 
-But since this i hadn't enought spare time to set this project on a stable ground.
+But since then i hadn't enought spare time to set this project on a stable ground.
 
 So i used the very overloaded and lame FCK Editor instead. It works well.
 
