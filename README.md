@@ -3,6 +3,10 @@ Editoo
 
 Editoo is my first try to implement a fully object oriented Wysiwyg Texteditor using Mootools 1.11
 
+_Update:_
+
+There's a new Richtexteditor for Mootools 1.2 called [MooEditable by cheeaun](http://cheeaun.github.com/mooeditable/). It is awesome!
+
 What it is
 ---
 
